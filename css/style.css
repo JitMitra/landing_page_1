@@ -2,3 +2,47 @@
     padding: 0;
     margin: 0;
 }
+
+.header-class{
+    background-color: #1F2937;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: white;
+    padding: 20px 0 0 0;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 300px;
+}
+
+.navbar ul li{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .logo{
+    margin-right: 500px;
+    
+}
+
+.navbar .logo img{
+    height: 120px;
+    width: 120px;
+}
