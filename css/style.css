@@ -3,46 +3,42 @@
     margin: 0;
 }
 
-.header-class{
+
+.header{
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
-}
-
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    color: white;
-    padding: 20px 0 0 0;
-}
-.navbar ul{
-    display: flex;
-    margin-right: 300px;
-}
-
-.navbar ul li{
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.navbar ul li a{
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-}
-
-.navbar .logo{
-    margin-right: 500px;
     
 }
 
-.navbar .logo img{
-    height: 120px;
-    width: 120px;
+.header .navbar{
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: 700px; */
 }
+
+.header .navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 400px;
+    
+}
+
+.header .navbar ul li{
+    margin-right: 10px 20px 0 0;
+    padding: 10px;
+}
+
+.header .navbar .logo-main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px 10px 200px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
