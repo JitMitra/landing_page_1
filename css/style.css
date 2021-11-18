@@ -40,5 +40,48 @@
     width: 50px;
 }
 
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin: 80px 0 0 200px;
+    height: 200px;
+    width: 500px;
+}
+
+.main-container h1{
+    text-align: left;
+    font-size: 48px;
+    font-style: extra-bold #F9FAF8;
+    margin-bottom: 10px;
+}
+
+
+.main-container p{
+    text-align: left;
+    font-size: 18px;
+    font-style: italic #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.main-container button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    margin: 20px 0 20px 0;
+}
+
+.main-container .banner{
+    height: 200px;
+    width: 400px;
+}
+
+
 
 
