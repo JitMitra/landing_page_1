@@ -2,7 +2,7 @@ Dark background color (Hero and footer)
 
 #1F2937
 
-Hero Main text ("This website is awesome")
+Hero Main text ("This website is awesome", "This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast")
 
 48px extra-bold #F9FAF8
 
