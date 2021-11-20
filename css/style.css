@@ -189,6 +189,7 @@
 .img-containers h4:hover{
     cursor: pointer;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 
@@ -198,18 +199,91 @@
 .quote{
     background-color: #E5E7EB;
     margin: auto;
-    height: 300px;
+    height: 350px;
 }
 
-.quote .main-text{
-    margin: auto;
-    height: 100;
-    width: 300;
+.quote .quote-wrapper{
+    margin: 50px 50px 50px 50px;
+}
+
+.quote .quote-wrapper .main-text{
+    margin-left: 300px;
+    padding-top: 50px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
-.quote .sub-text{
+.quote .quote-wrapper .sub-text{
     font-weight: bold;
+    margin-left: 800px;
+}
+
+
+/* Section sign up */
+
+.sign-up{
+    background-color: white;
+    height: 300px;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+.sign-up .container-sup{
+    width: 700px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 50px;
+    margin: 50px 0 0 300px;
+}
+
+.copy{
+    width: 245px;
+    margin: auto;
+    padding: 30px;
+}
+
+.left{
+    padding: 20px;
+}
+
+.left h4{
+    font-size: 26px;
+}
+
+.right{
+    padding: 20px;
+    margin-left: 50px;
+}
+
+
+.right button{
+    height: 50px;
+    width: 150px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: ease-out 200ms;
+}
+
+.right button:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    color: #3882F6;
+    font-size: 18px;
+}
+
+/* Footer section */
+
+.footer{
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
 }
